@@ -41,7 +41,7 @@ const Header = () => {
           </div>
 
           <TitleAnimated
-            className="text-[30px] font-bold tracking-[-0.02em]  dark:text-gray-500"
+            className="text-[30px] font-bold tracking-[-0.02em]  text-gray-500"
             words="Станьте владельцем собственного блога за пару кликов"
           />
           <div>
