@@ -16,7 +16,7 @@ const BlogHeader: React.FC<BlogHeaderProps> = ({title}) => {
             <p className="text-gray-500 lg:text-[60px] md:text-[40px] sm:text-[30px] text-[25px] font-semibold">
               Lorem ipsum dolor.
             </p>
-            <motion.h1  transition={{duration: 0.5}} initial={{opacity: 0, y: "20px"}} whileInView={{opacity: 1, y: "0"}} className="lg:text-[100px] md:text-[70px] sm:text-[50px] text-[45px] font-semibold tracking-[-0.02em] pt-5 text-black dark:text-white">
+            <motion.h1  transition={{duration: 0.5}} initial={{opacity: 0, y: "20px"}} whileInView={{opacity: 1, y: "0"}} className="lg:text-[100px] md:text-[70px] sm:text-[50px] text-[45px] font-semibold tracking-[-0.02em] pt-5 text-white ">
               {title}
             </motion.h1>
           </div>

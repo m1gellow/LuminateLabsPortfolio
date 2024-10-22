@@ -25,7 +25,7 @@ const Header = () => {
         <div className="h-screen gap-4 flex flex-col justify-center items-center">
           <div className="lg:flex-row text-center flex flex-col  items-center justify-center gap-3">
             <TitleAnimated
-              className="sm:text-[40px]  lg:text-[50px] font-bold tracking-[-0.02em] text-black dark:text-white"
+              className="sm:text-[40px]  lg:text-[50px] font-bold tracking-[-0.02em] text-white"
               words="Мы создаем"
             />
             <span>
@@ -35,7 +35,7 @@ const Header = () => {
               />
             </span>
             <TitleAnimated
-              className="sm:text-[40px]   lg:text-[50px] font-bold tracking-[-0.02em] text-black dark:text-white"
+              className="sm:text-[40px]   lg:text-[50px] font-bold tracking-[-0.02em] text-white "
               words="web-блоги для вас!"
             />
           </div>

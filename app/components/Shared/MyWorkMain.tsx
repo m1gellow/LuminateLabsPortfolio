@@ -22,7 +22,7 @@ const MyWorkMain: React.FC<MyWorkMainProps> = ({
             initial={{ y: "20px", opacity: 0 }}
             whileInView={{ y: "0", opacity: 1 }}
             transition={{ duration: 0.5 }}
-            className="lg:text-[100px] md:text-[70px] sm:text-[50px] text-[45px] font-semibold tracking-[-0.02em] pt-5 text-black dark:text-white"
+            className="lg:text-[100px] md:text-[70px] sm:text-[50px] text-[45px] font-semibold tracking-[-0.02em] pt-5 text-white"
           >
             {projectname}
           </motion.h1>

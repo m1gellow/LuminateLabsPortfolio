@@ -48,8 +48,7 @@ const MyWorkpage = async ({ params }: { params: { slug: string } }) => {
           </div>
 
           <div className="flex my-20 flex-col justify-center items-center">
-            <div className="h-[10px] w-80 border-b border-gray-400"></div>
-            <p className="opacity-25">project by Luminate Labs</p>
+            <p className="opacity-25 text-gray-400">project by Luminate Labs</p>
           </div>
         </div>
       </div>
