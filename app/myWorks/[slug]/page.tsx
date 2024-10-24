@@ -38,7 +38,7 @@ const MyWorkpage = async ({ params }: { params: { slug: string } }) => {
           projectname={data.projectname}
         />
         <div>
-          <h3 className="text-white proce proce-purple proce-xl lg:text-[30px] md:text-[20px] sm:text-[20px] text-[20px]">
+          <h3 className="text-white/80 prose prose-lg lg:text-[30px] md:text-[20px] sm:text-[20px] text-[20px]">
             <PortableText value={data.content} />
           </h3>
           <div>

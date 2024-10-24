@@ -40,13 +40,13 @@ const InfoPage = async ({ params }: { params: { slug: string } }) => {
       <BlogMainBody />
 
       <div className="flex justify-center  max-w-[1670px] gap-10 pt-10 mx-auto">
-        <div className="border-r border-gray-500 border-opacity-50 pr-2 hidden md:flex">
+        <div className="border-r flex-1 border-gray-500 border-opacity-50 pr-2 hidden md:flex">
           <h2 className="text-gray-500 lg:text-[30px] text-[25px]  font-semibold">
             {data.smallDescription}
           </h2>
         </div>
         <div>
-          <h3 className="text-white proce proce-purple proce-xl lg:text-[40px] md:text-[35px] sm:text-[25px] text-[20px]">
+          <h3 className="text-white/80 prose flex-1 prose-purple prose-lg lg:text-[40px] md:text-[35px] sm:text-[25px] text-[20px]">
             <PortableText value={data.content} />
           </h3>
           <div>
