@@ -46,7 +46,7 @@ const InfoPage = async ({ params }: { params: { slug: string } }) => {
           </h2>
         </div>
         <div>
-          <h3 className="text-white/80 prose flex-1 prose-purple prose-lg lg:text-[40px] md:text-[35px] sm:text-[25px] text-[20px]">
+          <h3 className="text-white/80 prose flex-1  prose-lg lg:text-[40px] md:text-[35px] sm:text-[25px] text-[20px]">
             <PortableText value={data.content} />
           </h3>
           <div>
