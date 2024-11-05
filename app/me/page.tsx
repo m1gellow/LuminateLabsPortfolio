@@ -3,6 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Button from "../components/ui/Button";
 import Particles from "../components/ui/Particles";
+import Link from "next/link";
 
 const AboutPage = () => {
   return (
@@ -44,7 +45,10 @@ const AboutPage = () => {
         </motion.h1>
         <div className="flex flex-col justify-center items-center">
             <h2 className="text-white text-[20px]">
-                <Button>Мы в Telegram</Button>
+              <Link href={"https://vk.com/luminatelabs"}>
+                <Button>Контакт с нами.</Button>
+              </Link>
+                
             </h2>
 
         </div>
