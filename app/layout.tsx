@@ -17,8 +17,8 @@ export const metadata: Metadata = {
   },
   description: "Building web blogs",
   verification:{
-    google: "EObO9EN98MC7TntRPHorF5mfeh9aRE6-OoRVUB7VQ8I"
-  }
+    google: "EObO9EN98MC7TntRPHorF5mfeh9aRE6-OoRVUB7VQ8I",
+  },
 };
 
 
