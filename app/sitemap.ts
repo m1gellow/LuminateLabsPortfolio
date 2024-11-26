@@ -8,17 +8,17 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
 
     const infoDataEntries: MetadataRoute.Sitemap = infoData.map((info: InfoData) => ({
-        url: `https://luminatelabs.netlify.app/info/${info.currentSlug}`
+        url: `${process.env.NEXT_PUBLIC_URL}/info/${info.currentSlug}`
     }));
 
     const worksDataEntries: MetadataRoute.Sitemap = workData.map((work: IMyWorksData) => ({
-        url: `https://luminatelabs.netlify.app/myWorks/${work.currentSlug}`
+        url: `${process.env.NEXT_PUBLIC_URL}/myWorks/${work.currentSlug}`
     }))
 
 
     return [
         {
-            url: `https://luminatelabs.netlify.app/me`,
+            url: `${process.env.NEXT_PUBLIC_URL}/me`,
         },
         ...infoDataEntries,
         ...worksDataEntries,
