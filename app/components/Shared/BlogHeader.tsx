@@ -1,6 +1,5 @@
 'use client'
 import React from 'react'
-import CardOfBlogInfo from '../ui/CardOfBlogInfo';
 import {motion} from 'framer-motion';
 
 interface BlogHeaderProps{
@@ -19,10 +18,6 @@ const BlogHeader: React.FC<BlogHeaderProps> = ({title}) => {
             <motion.h1  transition={{duration: 0.5}} initial={{opacity: 0, y: "20px"}} whileInView={{opacity: 1, y: "0"}} className="lg:text-[100px] md:text-[70px] sm:text-[50px] text-[45px] font-semibold tracking-[-0.02em] pt-5 text-white ">
               {title}
             </motion.h1>
-          </div>
-          <div className="flex flex-col items-center justify-center gap-12">
-            <CardOfBlogInfo text={"08 Aug 2024"} />
-            <CardOfBlogInfo text={"08 Aug 2024"} />
           </div>
         </div>
       </div>

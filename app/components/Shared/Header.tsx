@@ -36,13 +36,13 @@ const Header = () => {
             </span>
             <TitleAnimated
               className="sm:text-[40px]   lg:text-[50px] font-bold tracking-[-0.02em] text-white "
-              words="web-блоги для вас!"
+              words="web-cайты для вас!"
             />
           </div>
 
           <TitleAnimated
             className="text-[30px] font-bold tracking-[-0.02em]  text-gray-500"
-            words="Станьте владельцем собственного блога за пару кликов"
+            words="Станьте владельцем собственного сайта прямо сейчас!"
           />
           <div>
             <Link href={'/me'}>
