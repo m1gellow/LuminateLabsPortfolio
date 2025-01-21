@@ -26,23 +26,23 @@ const Header = () => {
           <div className="lg:flex-row text-center flex flex-col  items-center justify-center gap-3">
             <TitleAnimated
               className="sm:text-[40px]  lg:text-[50px] font-bold tracking-[-0.02em] text-white"
-              words="Мы создаем"
+              words="Ваш"
             />
             <span>
               <WordRotate
                 className="text-[40px]  lg:text-[50px] font-bold text-purple-600 dark:text-purple-600"
-                words={["Адаптивные", "Привлекательные", "Удобные", "Быстрые"]}
+                words={["Партнёр", "Друг", "Агент"]}
               />
             </span>
             <TitleAnimated
               className="sm:text-[40px]   lg:text-[50px] font-bold tracking-[-0.02em] text-white "
-              words="web-cайты для вас!"
+              words="в Мире Веб-Технологий"
             />
           </div>
 
           <TitleAnimated
             className="text-[30px] font-bold tracking-[-0.02em]  text-gray-500"
-            words="Станьте владельцем собственного сайта прямо сейчас!"
+            words="Профессиональная Веб-Разработка и Дизайн"
           />
           <div>
             <Link href={'/me'}>
